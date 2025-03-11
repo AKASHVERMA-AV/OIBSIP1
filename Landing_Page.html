@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocks Club:Health is Wealth</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypalURsw6Z9cc0GhNBF73a3xKvY11et8Ndg&s">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(45deg, #ff4500, #ff6600);
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('gym-hero.jpg') no-repeat center center/cover;
+            text-align: center;
+            padding: 120px 20px;
+        }
+        .hero h2 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 20px;
+            background: linear-gradient(45deg, #ff4500, #ff6600);
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: linear-gradient(45deg, #ff6600, #ff4500);
+            transform: scale(1.05);
+        }
+        .about, .offers, .contact {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .about-img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: #222;
+            color: #fff;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ff4500;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form input, form textarea {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form textarea {
+            height: 100px;
+        }
+        .contact button {
+            width: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(45deg, #ff4500, #ff6600);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Rocks Club Gym</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Transform Your Body, Transform Your Life</h2>
+            <p>Join FitLife Gym today and unlock your true potential.</p>
+            <a href="#offers" class="btn">View Offers</a>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Rocks Club Gym</h2>
+        <p>At Rocks Club Gym, we provide state-of-the-art equipment, expert trainers, and a motivating atmosphere to help you achieve your fitness goals.</p>
+        <img src="https://i0.wp.com/sankalpbuilders.com/wp-content/uploads/2024/11/Gymnasium.jpg?fit=1920%2C1080&ssl=1" alt="Gym Interior" class="about-img">
+    </section>
+    
+    <section id="offers" class="offers">
+        <h2>Exclusive Membership Offers</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>1 Month</td>
+                <td>₹1200</td>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>3 Months</td>
+                <td>₹3000</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>6 Months</td>
+                <td>₹6000</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Rocks Club Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
